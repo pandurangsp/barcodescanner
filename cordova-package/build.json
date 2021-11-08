@@ -1,0 +1,20 @@
+{
+    "android": {
+        "debug": {
+            "keystore": "keystore.jks",
+            "storePassword": "abcdef",
+            "alias": "appkey",
+            "password" : "123456",
+            "keystoreType": "",
+            "packageType": "apk"
+        },
+        "release": {
+           "keystore": "keystore.jks",
+            "storePassword": "abcdef",
+            "alias": "appkey",
+            "password" : "123456",
+            "keystoreType": "",
+            "packageType": "apk"
+        }
+    }
+}

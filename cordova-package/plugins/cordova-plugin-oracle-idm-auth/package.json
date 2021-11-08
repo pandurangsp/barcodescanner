@@ -1,0 +1,50 @@
+{
+  "_from": "cordova-plugin-oracle-idm-auth@=1.6.0",
+  "_id": "cordova-plugin-oracle-idm-auth@1.6.0",
+  "_inBundle": false,
+  "_integrity": "sha512-Pcwl+CJmfXy50QMW04J2HOd62ZV9E+AhbekFg3FF2aMJ+Uazhutic9GR34+z6Q5en7cIyW+FHESvu14D8dzyMg==",
+  "_location": "/cordova-plugin-oracle-idm-auth",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "cordova-plugin-oracle-idm-auth@=1.6.0",
+    "name": "cordova-plugin-oracle-idm-auth",
+    "escapedName": "cordova-plugin-oracle-idm-auth",
+    "rawSpec": "=1.6.0",
+    "saveSpec": null,
+    "fetchSpec": "=1.6.0"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-oracle-idm-auth/-/cordova-plugin-oracle-idm-auth-1.6.0.tgz",
+  "_shasum": "70c810f94efe809fc719f46baf92b7c9c5cdccec",
+  "_spec": "cordova-plugin-oracle-idm-auth@=1.6.0",
+  "_where": "C:\\Users\\Lenovo\\Documents\\S_Blogs21\\S_BarcodeScannerApp\\cordova-package",
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-oracle-idm-auth",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Provides authentication and authorization functionality using the Oracle IDM SDK, supporting standard protocols like Basic Auth, OAUTH, OpenID Connect and WebSSO.",
+  "keywords": [
+    "cordova",
+    "device",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "authentication",
+    "oauth",
+    "openid",
+    "websso",
+    "basic auth"
+  ],
+  "name": "cordova-plugin-oracle-idm-auth",
+  "version": "1.6.0"
+}

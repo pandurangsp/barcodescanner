@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.oraclecorp.internal.ent1.vbcs" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="File">
+        <param name="android-package" value="org.apache.cordova.file.FileUtils" />
+        <param name="onload" value="true" />
+    </feature>
+    <allow-navigation href="cdvfile:*" />
+    <feature name="NetworkStatus">
+        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
+    </feature>
+    <feature name="Geolocation">
+        <param name="android-package" value="org.apache.cordova.geolocation.Geolocation" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="IdmAuthFlows">
+        <param name="android-package" value="oracle.idm.auth.plugin.IdmAuthenticationPlugin" />
+    </feature>
+    <feature name="Camera">
+        <param name="android-package" value="org.apache.cordova.camera.CameraLauncher" />
+    </feature>
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="Globalization">
+        <param name="android-package" value="org.apache.cordova.globalization.Globalization" />
+    </feature>
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
+    <feature name="LaunchMyApp">
+        <param name="android-package" value="nl.xservices.plugins.LaunchMyApp" />
+    </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="StatusBar">
+        <param name="android-package" value="org.apache.cordova.statusbar.StatusBar" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="WebShare">
+        <param name="android-package" value="by.chemerisuk.cordova.WebSharePlugin" />
+        <param name="onload" value="false" />
+    </feature>
+    <feature name="FileOpener2">
+        <param name="android-package" value="io.github.pwlin.cordova.plugins.fileopener2.FileOpener2" />
+    </feature>
+    <feature name="IRoot">
+        <param name="android-package" value="de.cyberkatze.iroot.IRoot" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="BarcodeScanner">
+        <param name="android-package" value="com.phonegap.plugins.barcodescanner.BarcodeScanner" />
+    </feature>
+    <feature name="Keyboard">
+        <param name="android-package" onload="true" value="org.apache.cordova.labs.keyboard.Keyboard" />
+    </feature>
+    <name>YourAppName</name>
+    <description>
+        Your application description.
+    </description>
+    <author email="your.email@yourco.com" href="http://yourco.com">
+        Your Team Name
+    </author>
+    <content src="mobileApps/mobileapp1/index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-navigation href="http://*" />
+    <allow-navigation href="https://*" />
+    <allow-navigation href="data:*" />
+    <config-file parent="/*" target="AndroidManifest.xml">
+        <uses-permission android:name="android.permission.CAMERA" />
+        <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+        <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+        <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+        <uses-feature android:name="android.hardware.location.gps" />
+    </config-file>
+    <allow-intent href="market:*" />
+    <icon background="res/android/icons/icon-mdpi_background.png" density="mdpi" foreground="res/android/icons/icon-mdpi_foreground.png" />
+    <icon background="res/android/icons/icon-hdpi_background.png" density="hdpi" foreground="res/android/icons/icon-hdpi_foreground.png" />
+    <icon background="res/android/icons/icon-xhdpi_background.png" density="xhdpi" foreground="res/android/icons/icon-xhdpi_foreground.png" />
+    <icon background="res/android/icons/icon-xxhdpi_background.png" density="xxhdpi" foreground="res/android/icons/icon-xxhdpi_foreground.png" />
+    <icon background="res/android/icons/icon-xxxhdpi_background.png" density="xxxhdpi" foreground="res/android/icons/icon-xxxhdpi_foreground.png" />
+    <splash density="port-ldpi" src="res/android/splash/ldpi_p.9.png" />
+    <splash density="land-ldpi" src="res/android/splash/ldpi_l.9.png" />
+    <splash density="port-mdpi" src="res/android/splash/mdpi_p.9.png" />
+    <splash density="land-mdpi" src="res/android/splash/mdpi_l.9.png" />
+    <splash density="port-hdpi" src="res/android/splash/hdpi_p.9.png" />
+    <splash density="land-hdpi" src="res/android/splash/hdpi_l.9.png" />
+    <splash density="port-xhdpi" src="res/android/splash/xhdpi_p.9.png" />
+    <splash density="land-xhdpi" src="res/android/splash/xhdpi_l.9.png" />
+    <splash density="port-xxhdpi" src="res/android/splash/xxhdpi_p.9.png" />
+    <splash density="land-xxhdpi" src="res/android/splash/xxhdpi_l.9.png" />
+    <splash density="port-xxxhdpi" src="res/android/splash/xxxhdpi_p.9.png" />
+    <splash density="land-xxxhdpi" src="res/android/splash/xxxhdpi_l.9.png" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="AndroidLaunchMode" value="singleTask" />
+    <preference name="InterceptRemoteRequests" value="all" />
+    <preference name="NativeXHRLogging" value="full" />
+    <preference name="AutoHideSplashScreen" value="false" />
+    <preference name="FadeSplashScreen" value="false" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+    <preference name="StatusBarStyle" value="default" />
+    <preference name="StatusBarBackgroundColor" value="transparent" />
+    <preference name="android-minSdkVersion" value="22" />
+    <preference name="android-targetSdkVersion" value="29" />
+    <preference name="applicationId" value="com.oraclecorp.internal.ent1.vbcs" />
+    <preference name="orientation" value="unspecified" />
+    <preference name="CustomURLSchemePluginClearsAndroidIntent" value="true" />
+</widget>

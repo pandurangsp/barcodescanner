@@ -1,0 +1,77 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.oraclecorp.internal.ent1.vbcs"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "com.oraclecorp.internal.ent1.vbcs"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "com.oraclecorp.internal.ent1.vbcs"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.oraclecorp.internal.ent1.vbcs"
+    },
+    "cordova-plugin-keyboard": {
+      "PACKAGE_NAME": "com.oraclecorp.internal.ent1.vbcs"
+    },
+    "cordova-plugin-oracle-idm-auth": {
+      "PACKAGE_NAME": "com.oraclecorp.internal.ent1.vbcs"
+    },
+    "cordova-plugin-camera": {
+      "ANDROID_SUPPORT_V4_VERSION": "27.+",
+      "PACKAGE_NAME": "com.oraclecorp.internal.ent1.vbcs"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.oraclecorp.internal.ent1.vbcs"
+    },
+    "cordova-plugin-globalization": {
+      "PACKAGE_NAME": "com.oraclecorp.internal.ent1.vbcs"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.oraclecorp.internal.ent1.vbcs"
+    },
+    "cordova-plugin-wkwebview-file-xhr": {
+      "PACKAGE_NAME": "com.oraclecorp.internal.ent1.vbcs"
+    },
+    "cordova-plugin-customurlscheme": {
+      "URL_SCHEME": "oracle-vbcs",
+      "ANDROID_SCHEME": " ",
+      "ANDROID_HOST": " ",
+      "ANDROID_PATHPREFIX": "/",
+      "PACKAGE_NAME": "com.oraclecorp.internal.ent1.vbcs"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.oraclecorp.internal.ent1.vbcs"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.oraclecorp.internal.ent1.vbcs"
+    },
+    "cordova-plugin-web-share": {
+      "PACKAGE_NAME": "com.oraclecorp.internal.ent1.vbcs"
+    },
+    "cordova-plugin-file-opener2": {
+      "ANDROID_SUPPORT_V4_VERSION": "27.+",
+      "PACKAGE_NAME": "com.oraclecorp.internal.ent1.vbcs"
+    },
+    "cordova-plugin-iroot": {
+      "PACKAGE_NAME": "com.oraclecorp.internal.ent1.vbcs"
+    },
+    "phonegap-plugin-barcodescanner": {
+      "ANDROID_SUPPORT_V4_VERSION": "27.+",
+      "PACKAGE_NAME": "com.oraclecorp.internal.ent1.vbcs"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-support-android-plugin": {
+      "PACKAGE_NAME": "com.oraclecorp.internal.ent1.vbcs"
+    }
+  }
+}
